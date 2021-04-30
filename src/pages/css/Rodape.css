@@ -1,0 +1,38 @@
+.rodape-container{
+  margin-top: 525px;
+  position: fixed;
+  width: 100%;
+  height: 70%;  
+  background: #25006D;
+  color: #fffF;
+  text-align: center;
+
+flex-direction: row;}
+  
+.nossasRedes{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+  
+
+@media (max-width: 880px){
+
+
+  .rodape-container{
+    
+    margin-top: 525px;
+    position: fixed;
+      width: 100%;
+      height: 50%;
+      background: #25006D;
+      
+      }
+  
+  .nossasRedes{
+      display: flex;
+      justify-content: center;
+  flex-direction: column;
+  }
+
+}
