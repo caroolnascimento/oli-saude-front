@@ -3,14 +3,6 @@ import React from "react";
 
 
 const novocliente = () => {
-  constructor(props)
-   {
-    super(props)
-    this.state = { numero: 123 }
-  }
-  alterarNumero = (novoNumero) => {
-    this.setState({numero: novoNumero});
-}
   
      
     return(
